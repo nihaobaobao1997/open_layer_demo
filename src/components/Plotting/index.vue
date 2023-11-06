@@ -412,6 +412,7 @@ export default {
       getMap((map) => {
         this.map = map;
         this.g_pol_layer = new PlottingLayer(this.map);
+        
         var that = this;
         this.g_pol_layer.on(FeatureOperatorEvent.ACTIVATE, function(e) {
           that.tableData = [];

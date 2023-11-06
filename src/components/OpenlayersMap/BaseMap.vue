@@ -1,5 +1,7 @@
 <template>
-  <div id="openlayers-map" class="openlayers-map"></div>
+  <div id="openlayers-map" class="openlayers-map">
+    <slot></slot>
+  </div>
 </template>
 
 <script>
